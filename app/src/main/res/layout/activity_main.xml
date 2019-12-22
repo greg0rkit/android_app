@@ -20,9 +20,8 @@
         android:ems="10"
         android:hint="GitHub Username"
         android:inputType="textPersonName"
-        android:text="LondonAppDev"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="184dp" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_get_repos" />
 
     <Button
         android:id="@+id/btn_get_repos"
@@ -33,7 +32,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="156dp"
         android:onClick="getReposClicked"
         android:text="Get Repos"
         app:layout_constraintTop_toTopOf="parent"
@@ -50,8 +49,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:scrollbars="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="219dp" />
+        app:layout_constraintTop_toBottomOf="@+id/et_github_user"
+        tools:layout_editor_absoluteX="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
